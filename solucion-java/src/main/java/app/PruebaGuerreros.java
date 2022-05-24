@@ -10,11 +10,7 @@ public class PruebaGuerreros {
     public static void main(String[] args) {
         Hulk hulk = new Hulk();
         Alita alita = new Alita("espada");
-//        List guerreros = Arrays.asList(alita, hulk);
-//        mostrarHabilidadesDePelea(guerreros);
-    }
-
-//    private static void mostrarHabilidadesDePelea(List guerreros) {
+        List guerreros = Arrays.asList(alita, hulk);
 //        guerreros.forEach(guerrero -> guerrero.pelear());
-//    }
+    }
 }
