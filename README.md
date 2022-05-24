@@ -1,1 +1,1 @@
-# java-lab-2022
+# Solución utilizando un lenguaje dinámicamente tipado (JavaScript en este caso particular)
