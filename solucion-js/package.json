@@ -1,0 +1,12 @@
+{
+  "name": "java-lab-2022-clase2-js",
+  "version": "1.0.0",
+  "description": "Versión de la solución en JavaScript (lenguaje dinámicamente tipado)",
+  "main": "test_cazadores.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nicolas.patronelli",
+  "license": "ISC",
+  "type": "module"
+}
