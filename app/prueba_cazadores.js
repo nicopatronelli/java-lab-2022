@@ -5,6 +5,6 @@ import {Blade} from './dominio/personajes/Blade.js';
 const alita = new Alita();
 const hulk = new Blade();
 
-const guerreros = [alita, hulk];
+const cazadores = [alita, hulk];
 
-guerreros.forEach(guerrero => guerrero.cazar());
+cazadores.forEach(cazador => cazador.cazar());
