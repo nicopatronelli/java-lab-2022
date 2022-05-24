@@ -11,11 +11,11 @@ public class PruebaCazadores {
     public static void main(String[] args) {
         Buffy buffy = new Buffy();
         Alita alita = new Alita("espada");
-//        List<Cazador> cazadores = Arrays.asList(buffy, alita);
+//        List cazadores = Arrays.asList(buffy, alita);
 //        salirACazar(cazadores);
     }
 
-//    private static void salirACazar(List<Cazador> cazadores) {
+//    private static void salirACazar(List cazadores) {
 //        cazadores.forEach(cazador -> cazador.cazar());
 //    }
 }
