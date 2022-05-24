@@ -2,6 +2,8 @@ package dominio.personaje;
 
 public class Hulk {
     public void pelear() {
-        System.out.println("Hulk pelea usando sus puños ...");
+        Math.random();
+
+        System.out.println("Hulk se enfada y pelea usando sus puños ...");
     }
 }

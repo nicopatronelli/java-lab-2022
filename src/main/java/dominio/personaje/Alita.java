@@ -12,6 +12,6 @@ public class Alita {
     }
 
     public void cazar() {
-        System.out.println("Alita caza a un ladrón muy buscado ...");
+        System.out.println("Alita sale a la caza a un ladrón muy buscado ...");
     }
 }
