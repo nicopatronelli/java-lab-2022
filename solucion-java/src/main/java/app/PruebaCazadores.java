@@ -2,7 +2,6 @@ package app;
 
 import dominio.personaje.Alita;
 import dominio.personaje.Buffy;
-import dominio.interfaces.Cazador;
 
 import java.util.Arrays;
 import java.util.List;

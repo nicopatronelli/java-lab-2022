@@ -2,7 +2,6 @@ package app;
 
 import dominio.personaje.Alita;
 import dominio.personaje.Hulk;
-import dominio.interfaces.Guerrero;
 
 import java.util.Arrays;
 import java.util.List;
