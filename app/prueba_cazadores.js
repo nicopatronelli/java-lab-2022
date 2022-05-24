@@ -1,10 +1,10 @@
 import {Alita} from './dominio/personajes/Alita.js';
-import {Blade} from './dominio/personajes/Blade.js';
+import {Buffy} from './dominio/personajes/Buffy.js';
 
 // Cazadores 
-const alita = new Alita();
-const hulk = new Blade();
+const alita = new Alita("espada");
+const buffy = new Buffy();
 
-const cazadores = [alita, hulk];
+const cazadores = [alita, buffy];
 
 cazadores.forEach(cazador => cazador.cazar());
