@@ -10,8 +10,8 @@ public class PruebaCazadores {
     public static void main(String[] args) {
         Buffy buffy = new Buffy();
         Alita alita = new Alita("espada");
-        List cazadores = Arrays.asList(buffy, alita);
-//        cazadores.forEach(cazador -> cazador.cazar());
+        List<Object> cazadores = Arrays.asList(buffy, alita);
+        cazadores.forEach(cazador -> ((Alita)cazador).cazar());
     }
 
 }
