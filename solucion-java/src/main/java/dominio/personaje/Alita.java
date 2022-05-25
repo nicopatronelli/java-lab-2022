@@ -1,9 +1,8 @@
 package dominio.personaje;
 
-import dominio.especialidad.Cazador;
-import dominio.especialidad.Guerrero;
+import dominio.especialidad.CazadorGuerrero;
 
-public class Alita implements Cazador, Guerrero {
+public class Alita implements CazadorGuerrero {
     private String arma;
 
     public Alita(String arma) {
