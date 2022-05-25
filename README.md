@@ -22,3 +22,8 @@ Y para el de guerreros:
 node prueba_guerreros.js
 
 # Solución utilizando un lenguaje estáticamente tipado (usamos Java)
+Para la solución usamos Java 8. Partimos de una primera aproximación en donde no se pueden utilizar herencia (ni por medio de 
+clases concretas ni abstractas) ni tampoco interfaces. Luego permitimos el uso de herencia y finalmente arribamos a la solución 
+definitiva utilizando interfaces.
+
+
