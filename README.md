@@ -28,4 +28,3 @@ node prueba_guerreros.js
 Para la solución usamos Java 8. Partimos de una primera aproximación en donde no se pueden utilizar herencia (ni por medio de 
 clases concretas ni abstractas) ni tampoco interfaces. Luego permitimos el uso de herencia y finalmente arribamos a la solución 
 definitiva utilizando interfaces.
-
