@@ -1,5 +1,7 @@
 package app;
 
+import dominio.especialidad.Cazador;
+import dominio.excepcion.NoSabeCazarException;
 import dominio.personaje.Alita;
 import dominio.personaje.Buffy;
 
@@ -10,8 +12,15 @@ public class PruebaCazadores {
     public static void main(String[] args) {
         Buffy buffy = new Buffy();
         Alita alita = new Alita("espada");
-        List<Object> cazadores = Arrays.asList(buffy, alita);
-        cazadores.forEach(cazador -> ((Alita)cazador).cazar());
+        List<Cazador> cazadores = Arrays.asList(buffy, alita);
+        cazadores.forEach(cazador -> {
+            try {
+                cazador.cazar();
+            } catch (NoSabeCazarException e) {
+//              Un personaje de la lista puede no saber cazar
+                e.printStackTrace();
+            }
+        });
     }
 
 }
